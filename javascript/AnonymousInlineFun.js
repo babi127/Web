@@ -22,7 +22,7 @@ function movies(msgFunc, name){
 movies(function myFavMovie(movieName){
     console.log('My favorite Movie is ' + movieName);
 
-}, 'Finding nemo');// But it's not reusable as the normal function expression
+}, 'Finding nemooooo');// But it's not reusable as the normal function expression
 
 
 
