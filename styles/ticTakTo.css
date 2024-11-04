@@ -1,0 +1,26 @@
+/* Add CSS rules here! */
+ul{
+    width:400px;
+    height:300px;
+    display:flex;
+    flex-wrap:wrap;
+    
+    
+    
+    
+    }
+    li{
+      width:100px;
+      height:100px;
+      margin:4px;
+      allign-item:center;
+      list-style-type:none;
+      background-color:lightblue;
+      font-size:80px;
+      font-family: sans-serif;
+      text-align :center;
+      
+    
+    
+    
+    }

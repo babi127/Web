@@ -1,0 +1,32 @@
+.container{
+width: 100%;
+display:flex; /* display:flex;this wil display the boxes horizontally */
+flex-wrap: wrap;
+border:5px solid black;
+
+}
+.box{
+    /* float:left; this we can use to make the boxes align horizontally, but this wont resize automatically as the browser is resized  */
+    /* Instead we used display flex: to align the boxes horizontally */
+    float: left;
+    width: 60%;
+    height: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+
+
+}
+
+.red{
+    background-color: red;
+
+}
+.yellow{
+    background-color:yellow;
+
+}
+.green{
+background-color: green;
+}

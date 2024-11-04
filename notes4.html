@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/divide.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Div Element. A Block level element.</h1><!--This element is like the <p> element in that it's block level element, but <p> element is meant to contain only texts, but <div> element is for containing any element we want to put inside! -->
+
+    <div>
+        <p>Call me biruk!</p>
+        <p>But don't call me bura!</p>
+
+    </div>
+    <p class="main">There are certain html elements  that are used Only inside other html elements. They don't make sense on their own! <br> Examples: &lt;li&gt; Tag. This is because the browser wouldn't know what to put in front of the list item! A <mark>number</mark> or a <mark>dot</mark>! So &lt;li&gt; element can only occur inside the &lt;ol&gt; or &lt;ul&gt; Element. <br>
+    But, lists can be nested inside other lists! In case of some tasks that have multiple sub tasks inside them! Take a look at this list of tasks to move from one location to another location:</p>
+    <h2>List of tasks to do when traveling to markos: Nesting unordered list into ordered list.</h2>
+<ol>
+    <li>Pack your stuff
+        <ul>
+            <li>Pack your cloths.</li>
+            <li>Pack your Books.</li>
+            <li>Pack your Documentations.</li>
+        </ul>
+    </li>
+    <li>Buy tickets.</li>
+    <li>After arriving in markos , go to campus straight.</li>
+    <li>Unpack your stuff.</li>
+    <!-- NOte: it's optional to close the <li> tag, but we can't do this with the <ol> And <ul>. Another tag that is optional to close or not is the <p> Tag ! -->
+</ol>
+<h3>Nesting Ordered lists inside unordered list. </h3>
+<ul>
+    <li> Mammals
+        <ol type="a"><!-- Here the "type='a' " attribute of the <ol> tag enables us to choose from type of ordered list types , such as Numbers, Roman numbers , letters ! -->
+            <li>Racoons</li>
+            <li>Gorillas</li>
+        </ol>
+    </li>
+    <li>Reptiles
+        <ol type="a">
+            <li>Iguanas</li>
+            <li>Cobras</li>
+        </ol>
+    </li>
+    <li>Birds
+        <ol type="a">
+            <li>Ostriches</li>
+            <li>Ravens</li>
+        </ol>
+    </li>
+</ul>
+</body>
+</html>

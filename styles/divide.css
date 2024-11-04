@@ -1,0 +1,19 @@
+*{
+    font-weight: 200;
+    font-size: large;
+}
+
+
+p{
+    border:solid 1px red;
+}
+div{
+    border: solid 1px blue;
+    background-color: darkgoldenrod;
+}
+.main{
+    background-color: gold;
+}
+ol{
+    background-color: cadetblue;
+}

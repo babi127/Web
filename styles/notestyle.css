@@ -1,0 +1,17 @@
+*{
+    color:aquamarine;
+}
+
+p{
+    color:antiquewhite;
+    font-family: fantasy;
+    font-size: larger;
+    font-weight: 300;
+}
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/notebook.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
